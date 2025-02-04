@@ -31,25 +31,25 @@ export const App = () => {
             <Typography.Text view="primary-medium">Здравствуйте!</Typography.Text>
           </div>
           <div className={appSt.chatBubble({ position: 'middle' })}>
-            <Typography.Text view="primary-medium">Я ваш проводник в мир инвестиций.</Typography.Text>
+            <Typography.Text view="primary-medium">Я ваш виртуальный турагент.</Typography.Text>
           </div>
           <div className={appSt.chatBubble({ position: 'bottom' })}>
             <Typography.Text view="primary-medium">
-              Расскажу, как работает фондовый рынок, почему стоит инвестировать и какие инструменты можно использовать, чтобы
-              стать инвестором.
+              Посоветую популярные места, подберу отель, подскажу, где пообедать или интересно провести время и многое
+              другое.
             </Typography.Text>
             <div style={{ marginTop: '1rem' }}>
               <Typography.Text tag="p" defaultMargins={false} view="primary-small" color="secondary">
                 Примеры вопросов:
               </Typography.Text>
               <Typography.Text tag="p" defaultMargins={false} view="primary-medium">
-                Что такое ЦФА?
+                Сколько часов лететь до Калининграда?
               </Typography.Text>
               <Typography.Text tag="p" defaultMargins={false} view="primary-medium">
-                Что такое краудлендинг?
+                Подскажи, что посмотреть в Казани?
               </Typography.Text>
               <Typography.Text tag="p" defaultMargins={false} view="primary-medium">
-                Что значит торговля с плечом?
+                Посоветуй, где поужинать в Питере?
               </Typography.Text>
             </div>
           </div>
@@ -131,10 +131,6 @@ export const App = () => {
           <Typography.Text view="primary-medium" tag="p" defaultMargins={false}>
             Я осознаю, что соблюдение данных правил необходимо для корректной работы Сервиса и несу ответственность за
             исполнение условий и использование Сервиса и ответов (результатов), полученных в рамках Сервиса.
-          </Typography.Text>
-          <Typography.Text view="primary-medium" tag="p" defaultMargins={false}>
-            Информация, предоставленная ии-ассистентом, не является индивидуальной инвестиционной рекомендацией. Предложенные
-            финансовые инструменты и операции могут не соответствовать вашему профилю и целям (ожиданиям).
           </Typography.Text>
         </div>
       </BottomSheet>
