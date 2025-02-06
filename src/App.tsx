@@ -19,7 +19,7 @@ export const App = () => {
       <div className={appSt.container}>
         <div style={{ marginTop: '1rem', textAlign: 'center' }}>
           <Typography.TitleResponsive tag="h1" view="large" font="system" weight="semibold">
-            ИИ-Ассистент
+            Альфа-ассистент
           </Typography.TitleResponsive>
           <Typography.Text view="primary-medium" color="secondary">
             Работает в тестовом режиме
@@ -95,7 +95,7 @@ export const App = () => {
       >
         <div className={appSt.containerBottom}>
           <Typography.TitleResponsive tag="h2" view="large" weight="bold">
-            Правила использования «ИИ Ассистента» (Сервис)
+            Правила использования «Альфа- ассистента» (Сервис)
           </Typography.TitleResponsive>
           <Typography.Text tag="p" defaultMargins={false} view="primary-medium">
             В Сервисе задействованы нейронные сети (генеративный искусственный интеллект).
@@ -107,30 +107,30 @@ export const App = () => {
           <List tag="ul">
             <List.Item>
               <Typography.Text view="primary-medium">
-                не размещать, не загружать и не раскрывать каким-либо образом личную и конфиденциальную информацию, включая
-                сведения, содержащие банковскую тайну, и персональные данные (ФИО, номер счета, номер и иные реквизиты карты,
-                номер телефона и др.);
+                Не размещать, не загружать и не раскрывать личную и конфиденциальную информацию, включая сведения, содержащие
+                банковскую тайну, и персональные данные (ФИО, номер счета, номер и иные реквизиты карты, номер телефона и
+                др.);
               </Typography.Text>
             </List.Item>
             <List.Item>
               <Typography.Text view="primary-medium">
-                ответы (результаты), полученные в рамках Сервиса, адаптировать под собственные нужды;
+                Адаптировать ответы (результаты), полученные в рамках Сервиса, под собственные нужды;
               </Typography.Text>
             </List.Item>
             <List.Item>
               <Typography.Text view="primary-medium">
-                при использовании ответов, полученных в рамках Сервиса, не указывать, что ответы получены от Банка или
+                При использовании ответов, полученных в рамках Сервиса, не указывать, что ответы получены от Банка или
                 являются позицией Банка;
               </Typography.Text>
             </List.Item>
             <List.Item>
               <Typography.Text view="primary-medium">
-                проверять информацию в других источниках из-за возможных ошибок искусственного интеллекта;
+                Проверять информацию в других источниках из-за возможных ошибок искусственного интеллекта;
               </Typography.Text>
             </List.Item>
             <List.Item>
               <Typography.Text view="primary-medium">
-                не использовать Сервис для нарушения нормативных правовых актов, норм морали и нравственности, введения в
+                Не использовать Сервис для нарушения нормативных правовых актов, норм морали и нравственности, введения в
                 заблуждение либо распространения недостоверной информации.
               </Typography.Text>
             </List.Item>
@@ -163,13 +163,13 @@ export const App = () => {
       >
         <div className={appSt.containerBottom}>
           <Typography.TitleResponsive tag="h2" view="large" weight="bold">
-            Внимание!
+            Обратите внимание
           </Typography.TitleResponsive>
           <Typography.Text view="primary-medium" tag="p" defaultMargins={false}>
-            ИИ-ассистент работает в тестовом режиме, поэтому для ответа требуется чуть больше времени.
+            Альфа-ассистент пока работает в тестовом режиме, поэтому отвечает чуть дольше.
           </Typography.Text>
           <Typography.Text view="primary-medium" tag="p" defaultMargins={false}>
-            Так же ответы могут содержать ошибки. Пожалуйста проверяйте точность ответов.
+            Иногда он может ошибаться — лучше перепроверить информацию, если вопрос важный.
           </Typography.Text>
         </div>
       </BottomSheet>
