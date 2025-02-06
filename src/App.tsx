@@ -63,6 +63,7 @@ export const App = () => {
           block
           view="primary"
           onClick={() => {
+            window.gtag('event', 'next_AI_Travel_var1');
             setShowBs(true);
           }}
         >
@@ -70,7 +71,13 @@ export const App = () => {
         </ButtonMobile>
         <Typography.Text view="primary-medium" color="secondary">
           Продолжая, вы соглашаетесь с{' '}
-          <span onClick={() => setShowBsRules(true)} style={{ textDecoration: 'underline', color: '#000' }}>
+          <span
+            onClick={() => {
+              window.gtag('event', 'rules_AI_Travel_var1');
+              setShowBsRules(true);
+            }}
+            style={{ textDecoration: 'underline', color: '#000' }}
+          >
             правилами использования
           </span>
           .
@@ -142,7 +149,14 @@ export const App = () => {
         }}
         contentClassName={appSt.btmContent}
         actionButton={
-          <ButtonMobile block view="primary" href={chatBotLink}>
+          <ButtonMobile
+            block
+            view="primary"
+            href={chatBotLink}
+            onClick={() => {
+              window.gtag('event', 'agree_AI_Travel_var1');
+            }}
+          >
             Понятно, продолжить
           </ButtonMobile>
         }
